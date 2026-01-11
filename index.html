@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kapsamlı HTML Etiket Sözlüğü</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f0f2f5; color: #333; line-height: 1.5; padding: 20px; }
+        .container { max-width: 1000px; margin: auto; background: white; padding: 30px; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
+        h1 { text-align: center; color: #2c3e50; margin-bottom: 30px; border-bottom: 3px solid #3498db; display: inline-block; width: 100%; padding-bottom: 10px; }
+        h2 { background: #3498db; color: white; padding: 10px; border-radius: 5px; font-size: 1.2rem; margin-top: 30px; }
+        table { width: 100%; border-collapse: collapse; margin-bottom: 20px; background: #fff; }
+        th, td { padding: 12px; text-align: left; border-bottom: 1px solid #eee; }
+        th { background-color: #f8f9fa; color: #555; text-transform: uppercase; font-size: 0.85rem; }
+        code { background-color: #fff0f5; color: #d63384; padding: 3px 6px; border-radius: 4px; font-family: 'Courier New', Courier, monospace; font-weight: bold; }
+        tr:hover { background-color: #f1f7ff; }
+        .desc { color: #666; font-size: 0.95rem; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>HTML5 Etiket Arşivi</h1>
+
+    <h2>1. Temel Yapı Etiketleri</h2>
+    <table>
+        <tr><th>Etiket</th><th>Açıklama</th></tr>
+        <tr><td><code>&lt;!DOCTYPE html&gt;</code></td><td class="desc">Belgenin HTML5 olduğunu tanımlar.</td></tr>
+        <tr><td><code>&lt;html&gt;</code></td><td class="desc">Sayfanın kök elemanıdır.</td></tr>
+        <tr><td><code>&lt;head&gt;</code></td><td class="desc">Meta veriler, başlık ve script linklerini tutar.</td></tr>
+        <tr><td><code>&lt;body&gt;</code></td><td class="desc">Görünen tüm içeriğin ana gövdesidir.</td></tr>
+    </table>
+
+    <h2>2. Metin Biçimlendirme</h2>
+    <table>
+        <tr><th>Etiket</th><th>Açıklama</th></tr>
+        <tr><td><code>&lt;h1&gt; - &lt;h6&gt;</code></td><td class="desc">Başlıklar (h1 en önemli, h6 en az önemli).</td></tr>
+        <tr><td><code>&lt;p&gt;</code></td><td class="desc">Paragraf oluşturur.</td></tr>
+        <tr><td><code>&lt;br&gt;</code></td><td class="desc">Satır sonu (alt satıra geçiş).</td></tr>
+        <tr><td><code>&lt;hr&gt;</code></td><td class="desc">Yatay çizgi çeker (tematik ayrım).</td></tr>
+        <tr><td><code>&lt;strong&gt;</code></td><td class="desc">Kalın ve önemli metin.</td></tr>
+        <tr><td><code>&lt;em&gt;</code></td><td class="desc">Vurgulanan (genelde italik) metin.</td></tr>
+        <tr><td><code>&lt;blockquote&gt;</code></td><td class="desc">Başka bir kaynaktan alıntı.</td></tr>
+        <tr><td><code>&lt;span&gt;</code></td><td class="desc">Metin içinde belirli bir bölümü işaretlemek için (inline).</td></tr>
+    </table>
+
+    <h2>3. Form ve Girdi Etiketleri</h2>
+    <table>
+        <tr><th>Etiket</th><th>Açıklama</th></tr>
+        <tr><td><code>&lt;form&gt;</code></td><td class="desc">Kullanıcı girişi için form alanı oluşturur.</td></tr>
+        <tr><td><code>&lt;input&gt;</code></td><td class="desc">Veri giriş alanı (metin, şifre, buton vb.).</td></tr>
+        <tr><td><code>&lt;textarea&gt;</code></td><td class="desc">Çok satırlı metin giriş alanı.</td></tr>
+        <tr><td><code>&lt;button&gt;</code></td><td class="desc">Tıklanabilir buton.</td></tr>
+        <tr><td><code>&lt;select&gt;</code></td><td class="desc">Açılır liste kutusu.</td></tr>
+        <tr><td><code>&lt;label&gt;</code></td><td class="desc">Form öğeleri için açıklama metni.</td></tr>
+    </table>
+
+    <h2>4. Liste ve Tablo Etiketleri</h2>
+    <table>
+        <tr><th>Etiket</th><th>Açıklama</th></tr>
+        <tr><td><code>&lt;ul&gt;</code></td><td class="desc">Sırasız (noktalı) liste.</td></tr>
+        <tr><td><code>&lt;ol&gt;</code></td><td class="desc">Sıralı (1, 2, 3...) liste.</td></tr>
+        <tr><td><code>&lt;li&gt;</code></td><td class="desc">Liste öğesi.</td></tr>
+        <tr><td><code>&lt;table&gt;</code></td><td class="desc">Tablo ana kapsayıcısı.</td></tr>
+        <tr><td><code>&lt;tr&gt;</code></td><td class="desc">Tablo satırı.</td></tr>
+        <tr><td><code>&lt;td&gt;</code></td><td class="desc">Tablo hücresi (verisi).</td></tr>
+        <tr><td><code>&lt;th&gt;</code></td><td class="desc">Tablo başlık hücresi.</td></tr>
+    </table>
+
+    <h2>5. Görsel ve Medya</h2>
+    <table>
+        <tr><th>Etiket</th><th>Açıklama</th></tr>
+        <tr><td><code>&lt;img&gt;</code></td><td class="desc">Resim ekleme.</td></tr>
+        <tr><td><code>&lt;video&gt;</code></td><td class="desc">Video oynatıcı ekleme.</td></tr>
+        <tr><td><code>&lt;audio&gt;</code></td><td class="desc">Ses dosyası oynatıcı ekleme.</td></tr>
+        <tr><td><code>&lt;iframe&gt;</code></td><td class="desc">Başka bir web sayfasını gömme.</td></tr>
+    </table>
+
+    <h2>6. Semantik (Bölümleme) Etiketleri</h2>
+    <table>
+        <tr><th>Etiket</th><th>Açıklama</th></tr>
+        <tr><td><code>&lt;header&gt;</code></td><td class="desc">Giriş veya navigasyon kısmı.</td></tr>
+        <tr><td><code>&lt;nav&gt;</code></td><td class="desc">Menü/Navigasyon bağlantıları alanı.</td></tr>
+        <tr><td><code>&lt;main&gt;</code></td><td class="desc">Sayfanın ana içeriği.</td></tr>
+        <tr><td><code>&lt;section&gt;</code></td><td class="desc">Belirli bir konu bölümü.</td></tr>
+        <tr><td><code>&lt;article&gt;</code></td><td class="desc">Bağımsız yazı veya makale alanı.</td></tr>
+        <tr><td><code>&lt;aside&gt;</code></td><td class="desc">Yan panel (kenar çubuğu) içeriği.</td></tr>
+        <tr><td><code>&lt;footer&gt;</code></td><td class="desc">Sayfanın en alt bilgi kısmı.</td></tr>
+    </table>
+
+    
+</div>
+
+</body>
+</html>
+  
